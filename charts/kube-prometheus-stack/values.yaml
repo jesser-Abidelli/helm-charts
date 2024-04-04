@@ -2790,7 +2790,7 @@ prometheusOperator:
     enableProbe: false
 
     # resource config for prometheusConfigReloader
-    resources: {}
+    resources:
        requests:
          cpu: 1000m
          memory: 1Gi
